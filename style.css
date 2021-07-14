@@ -1,0 +1,34 @@
+/*
+ Theme Name:   Twenty Twenty Eif child theme
+ Theme URI:    http://github.com/kermorgant/twenty-twenty-eif/
+ Description:  Twenty Twenty Child Theme for EIF Handball section
+ Author:       Mikael Kermorgant
+ Author URI:   http://www.kgtech.fi
+ Template:     twentytwenty
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentyeif
+*/
+
+body {
+}
+
+#site-header {
+  background-color: #006231;
+}
+.singular .entry-header {
+  /* background-color: #fff; */
+}
+
+h1,
+.heading-size-1 {
+  font-size: 6rem;
+}
+
+@media screen and (min-width: 700px) {
+  .singular .entry-header {
+    padding: 2rem;
+  }
+}
