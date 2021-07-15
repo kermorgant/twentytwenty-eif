@@ -57,6 +57,18 @@ body:not(.overlay-header) .toggle-inner .toggle-text,
 .singular:not(.overlay-header) .entry-header .post-meta a {
   color: #ccc;
 }
+
+.social-icons a,
+#site-footer button:not(.toggle),
+#site-footer .button,
+#site-footer .faux-button,
+#site-footer .wp-block-button__link,
+#site-footer .wp-block-file__button,
+#site-footer input[type="button"],
+#site-footer input[type="reset"],
+#site-footer input[type="submit"] {
+  background-color: #ddd !important;
+}
 @media screen and (min-width: 700px) {
   .singular .entry-header {
     padding: 2rem;
