@@ -12,6 +12,10 @@
  */
 
 ?>
+
+            <?php include('template-parts/footer-sponsors-widget.php'); ?>
+
+
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
 
 				<div class="section-inner">
