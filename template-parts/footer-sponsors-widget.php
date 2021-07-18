@@ -15,10 +15,9 @@ if ( $has_sponsors) {
 					<div class="footer-widgets-wrapper">
 
 
-							<div class="footer-widgets column-one grid-item">
+							<div class="column-one grid-item">
 								<?php dynamic_sidebar( 'sponsors' ); ?>
 							</div>
-
 
 
 					</div><!-- .footer-widgets-wrapper -->
