@@ -12,7 +12,7 @@ if ( $has_sponsors) {
 
 				<aside class="footer-widgets-outer-wrapper" role="complementary">
 
-					<div class="footer-widgets-wrapper">
+					<div class="">
 
 
 							<div class="column-one grid-item">
@@ -20,12 +20,12 @@ if ( $has_sponsors) {
 							</div>
 
 
-					</div><!-- .footer-widgets-wrapper -->
+					</div>
 
-				</aside><!-- .footer-widgets-outer-wrapper -->
+				</aside>
 
-		</div><!-- .footer-inner -->
+		</div>
 
-	</div><!-- .footer-nav-widgets-wrapper -->
+	</div>
 
 <?php } ?>

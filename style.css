@@ -78,3 +78,8 @@ body:not(.overlay-header) .toggle-inner .toggle-text,
     padding: 2rem;
   }
 }
+
+
+.sponsors {
+    background-color: #fff;
+}
