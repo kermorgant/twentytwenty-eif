@@ -31,6 +31,11 @@ h1,
   font-size: 2rem !important;
 }
 
+.header-footer-group .widget-title.subheading.heading-size-3 {
+
+	font-size: 2rem !important;
+}
+
 body:not(.overlay-header) .primary-menu > li > a,
 body:not(.overlay-header) .primary-menu > li > .icon,
 .modal-menu a,
@@ -79,7 +84,28 @@ body:not(.overlay-header) .toggle-inner .toggle-text,
   }
 }
 
-
 .sponsors {
     background-color: #fff;
+}
+
+/** SPONSOR PAGE  */
+.page-id-511 .sponsors {
+	display: none;
+}
+.page-id-511 .wp-sponsors {
+	width: 100%;
+}
+.page-id-511 .sponsor-item {
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #5a5a5a;
+}
+.page-id-511 .sponsor-item img {
+	max-height: 150px;
+	width: auto;
+	border-bottom: 1px solid #eaeaea;
+}
+
+/* HOMEPAGE */
+.home .post-inner.thin {
+  padding-top: 3rem;
 }
