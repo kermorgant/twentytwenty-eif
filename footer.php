@@ -56,10 +56,12 @@
 		<?php wp_footer(); ?>
 
         <script type="text/javascript">
-         if (typeof _paq !== "undefined") {
-             _paq.push(['trackPageView']);
-             _paq.push(['trackVisibleContentImpressions']);
-         }
+         jQuery.ready(function() {
+             if (typeof _paq !== "undefined") {
+                 _paq.push(['trackPageView']);
+                 _paq.push(['trackVisibleContentImpressions']);
+             }
+         });
         </script>
 	</body>
 </html>
