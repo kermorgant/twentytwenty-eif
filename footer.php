@@ -54,14 +54,5 @@
 			</footer><!-- #site-footer -->
 
 		<?php wp_footer(); ?>
-
-        <script type="text/javascript">
-         jQuery.ready(function() {
-             if (typeof _paq !== "undefined") {
-                 _paq.push(['trackPageView']);
-                 _paq.push(['trackVisibleContentImpressions']);
-             }
-         });
-        </script>
 	</body>
 </html>
